@@ -1,15 +1,13 @@
 #pragma once
 
-#include <iostream>
-
 #define MAX_BUFF_SIZE 4096
 
 typedef struct buffer_s
 {
     unsigned char* bytes;
     size_t size;
-    unsigned int r_point = 0;
-    unsigned int w_point = 0;
+    unsigned int r_point;
+    unsigned int w_point;
 } buffer;
 
 int read_from_buffer(void* stream, void* to, size_t r_size);

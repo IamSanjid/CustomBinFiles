@@ -1,4 +1,5 @@
 #include "buffer.h"
+#include <iostream>
 
 int read_from_buffer(void* stream, void* to, size_t r_size)
 {

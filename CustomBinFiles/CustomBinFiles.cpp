@@ -4,7 +4,6 @@
 */
 
 #include <iostream>
-#include <fstream>
 #include "bin.h"
 #include "buffer.h"
 
