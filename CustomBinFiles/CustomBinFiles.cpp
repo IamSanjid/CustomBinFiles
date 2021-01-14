@@ -1,10 +1,9 @@
 /*
 *  (LEN_1B)(Name S)(Name)(Searches)(Search B S)(Size)(Search B)(+++)(Size)(Execution CODE For each Searches)(+++)
-*    char   uint32  char  uint32     uint32    uint32 raw bytes      uint32        raw bytes
+*   uchar  uint32  char[]  uint32     uint32    uint32 raw bytes      uint32        raw bytes
 */
 
 #include <iostream>
-#include <fstream>
 #include "bin.h"
 #include "buffer.h"
 
